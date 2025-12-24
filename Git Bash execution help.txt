@@ -1,0 +1,8 @@
+[ FOR GIT BASH ]
+In examples, main can be replaced with your chosen name for the exe file
+
+To create an exe to run do:
+g++ test.cc -o main
+
+To run the exe:
+./main
