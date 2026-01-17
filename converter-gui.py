@@ -6,6 +6,8 @@ root.geometry("400x300")
 root.title("RGB To Float Converter")
 root.iconbitmap("icon.ico")
 root.resizable(False, False)
+set_appearance_mode("Dark")
+set_default_color_theme("dark-blue")
 
 def varSet(var, set):
     return var.set(set)
@@ -212,3 +214,4 @@ totalOutput.place(x = inputX, y = 250, anchor = "w")
 
 
 root.mainloop()
+
