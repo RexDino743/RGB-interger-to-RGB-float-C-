@@ -1,8 +1,22 @@
-# RGB-interger-to-RGB-float-C-
-C++ code to convert an RGB value (eg. 255, 255, 255) or RGBA value (eg. 255, 255, 255, 255) into decimal (eg.  0.514, 0.640, 0.200)
+## Description
+- **C++ Converter** (`converter.cc`)  
+  Converts 8‑bit integer RGB or RGBA values to normalized floating‑point values.
 
-"converter.py" is a port of "converter.cc"
+- **Python CLI** (`converter.py`)  
+  A direct Python port of the C++ converter for easier use.
 
-"converter gui.py" is a port an interactive window based version of "converter.py"
-"converter gui.py" uses customtkinter, to install run:
+- **Interactive GUI Tool** (`converter‑gui.py`)  
+  A graphical interface using CustomTkinter for interactive RGB conversion.
+
+These tools are useful whenever you need to work with colors in graphics, shaders, or game engines, converting standard 0–255 RGB values into normalized floats (0.0–1.0).
+
+## Dependencies
+**CustomTkinter**:
+```
 pip install customtkinter
+```
+
+**Pyperclip**:
+```
+pip install pyperclip
+```
