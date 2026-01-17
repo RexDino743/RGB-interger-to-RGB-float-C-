@@ -1,8 +1,5 @@
 from customtkinter import *
 import pyperclip
-import maincopy
-
-maincopy.bill()
 
 root = CTk()
 root.geometry("400x300")
@@ -212,5 +209,6 @@ totalOutput = CTkLabel(root, textvariable = total, font = satoshi, width = input
 
 totalButton.place(x = labelX, y = 250, anchor = "e")
 totalOutput.place(x = inputX, y = 250, anchor = "w")
+
 
 root.mainloop()
