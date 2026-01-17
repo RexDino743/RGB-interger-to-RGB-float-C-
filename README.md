@@ -12,11 +12,11 @@ These tools are useful whenever you need to work with colors in graphics, shader
 
 ## Dependencies
 **CustomTkinter**:
-```
+```sh
 pip install customtkinter
 ```
 
 **Pyperclip**:
-```
+```sh
 pip install pyperclip
 ```
